@@ -1,0 +1,12 @@
+PezCandy21Runner
+
+create pez candy
+LLStack<String> pez = new LLStack<String>();
+
+call pezcandy21 constructor
+
+for(int i = 0; i < pez.size(); i++){
+	takeYellow();
+}
+
+pez.print();

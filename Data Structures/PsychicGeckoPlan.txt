@@ -1,0 +1,12 @@
+create grid with 2 psychic geckos
+check psychic gecko 1's adjacent location
+if there is an adjacent gecko, dont move
+if there is an adjacent flower, move toward it and eat it
+if a PsychicGecko distinct from the original is found, the search terminates, and each PsychicBean along the found path should be replaced with a Flower.
+Otherwise, a new PsychicBean is placed at the location, marking the space so that the search does not circle back around needlessly(recursive backtracking)
+Each empty location adjacent to this new PsychicBean is then recursively searched in the same way. If there are several such empty squares to consider, they are sorted in order according to their difference from the direction of the other PsychicGecko.
+
+
+
+
+PsychicBean 
